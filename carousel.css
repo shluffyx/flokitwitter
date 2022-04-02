@@ -133,5 +133,5 @@ body {
 .btt {
   background-color: rgb(252, 221, 49) !important;
   border: none !important;
-  color: black;
+  color: black !important;
 }
