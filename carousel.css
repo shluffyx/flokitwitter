@@ -1,0 +1,137 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Josefin+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,600&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css");
+* {
+  font-family: "Baloo 2", serif;
+}
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: bold;
+  color: black;
+}
+/* rtl:begin:ignore */
+.marketing .col-lg-4 p {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+  color: black;
+}
+/* rtl:end:ignore */
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  /* rtl:remove */
+  letter-spacing: -0.05rem;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+.um h2 {
+  text-shadow: 1px 1px 1px rgb(253, 236, 5) !important;
+}
+.texto {
+  text-shadow: 1px 1px rgba(37, 35, 0, 0.226) !important;
+}
+.cvm {
+  color: #083e88 !important;
+}
+.cvm span {
+  color: #5d85bd !important;
+}
+.cvmp {
+  color: rgb(73, 137, 255) !important;
+}
+.token {
+  display: flex !important;
+  align-items: center !important;
+}
+.navbar-collapse {
+  flex-grow: 0 !important;
+}
+body {
+  background-color: #f1e8cc !important;
+}
+.img {
+  display: flex !important;
+  flex-direction: column !important;
+}
+.title {
+  margin-top: 10px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 2.4rem;
+  color: rgb(0, 13, 37) !important;
+  /* text-shadow: 4px 4px rgb(208, 255, 80) !important; */
+}
+.btt {
+  background-color: rgb(252, 221, 49) !important;
+  border: none !important;
+  color: black;
+}
