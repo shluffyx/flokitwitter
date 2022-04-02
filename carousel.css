@@ -93,9 +93,9 @@ body {
   }
 }
 
-/* .um h2 {
-  color: rgb(253, 5, 5) !important;
-} */
+.um h2 {
+  text-shadow: 1px 1px 1px rgb(253, 236, 5) !important;
+}
 .texto {
   text-shadow: 1px 1px rgba(37, 35, 0, 0.226) !important;
 }
@@ -130,7 +130,8 @@ body {
   color: rgb(0, 13, 37) !important;
   /* text-shadow: 4px 4px rgb(208, 255, 80) !important; */
 }
-/* .btt {
-  background-color: red !important;
-  border-color: none !important;
-} */
+.btt {
+  background-color: rgb(252, 221, 49) !important;
+  border: none !important;
+  color: black;
+}
